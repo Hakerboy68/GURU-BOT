@@ -22,7 +22,7 @@ let handler = async (m, { conn, text }) => {
 
 handler.help = ['addgold <@user>']
 handler.tags = ['economy']
-handler.command = ['addgold'] 
+handler.command = ['givegold'] 
 handler.rowner = true
 
 export default handler
